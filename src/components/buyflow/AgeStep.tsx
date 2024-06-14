@@ -17,6 +17,7 @@ const AgeStep: React.FC<AgeStepProps> = (props) => {
           value={age}
           type="number"
           className="input input-bordered input-primary w-full max-w-xs"
+          required
         />
       </div>
 

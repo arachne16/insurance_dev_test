@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <div className="flex flex-col gap-4">
-        <p>Welcome to Getsafe&apos;s Developer Insurance</p>
-        <Link href="/buy/insurance_dev" className="underline">
+        <p>Welcome!</p>
+        <Link href="/buy" className="underline">
           Get started!
         </Link>
       </div>
